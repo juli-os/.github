@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/juli-os.png" width="120" alt="Juli OS logo" />
+  <img src="logo.png" width="140" alt="Juli OS logo" />
 </p>
 
 <h1 align="center">Juli OS</h1>
@@ -19,12 +19,23 @@ Juli OS is an open ladder of **independently usable layers** for building trustw
 | Layer | Package | What you get |
 |---|---|---|
 | **L0** Execution substrate | `@juli-os/agents` · upcoming | tmux-based agent session runtime with delivery confirmation and self-healing |
-| **L1** Ledger | [`@juli-os/ledger`](../ledger) · pre-release | the append-only record of agent work — workflows, steps, case files, token usage. Zero npm dependencies (Node built-in SQLite) |
-| **L2** Artifacts | `@juli-os/artifacts` · upcoming | hash-registered deliverables with provenance — content stays schema-free, metadata is the only structure |
+| **L1** Ledger | [`@juli-os/ledger`](../ledger) <a href="https://www.npmjs.com/package/@juli-os/ledger"><img src="https://img.shields.io/npm/v/@juli-os/ledger.svg?color=D97C26"></a> | the append-only record of agent work — workflows, steps, case files, token usage. Zero npm dependencies (Node built-in SQLite) |
+| **L2** Artifacts | [`@juli-os/artifacts`](../artifacts) <a href="https://www.npmjs.com/package/@juli-os/artifacts"><img src="https://img.shields.io/npm/v/@juli-os/artifacts.svg?color=D97C26"></a> | hash-registered deliverables with provenance — content stays schema-free, metadata is the only structure |
 | **L3** Gates | `@juli-os/gates` · upcoming | human approval flows with content-hash binding — nothing leaves without a sign-off |
-| **L4** Routing | `@juli-os/routing` · upcoming | multi-agent dispatch decisions as pure functions |
+| **L4** Routing | [`@juli-os/routing`](../routing) <a href="https://www.npmjs.com/package/@juli-os/routing"><img src="https://img.shields.io/npm/v/@juli-os/routing.svg?color=D97C26"></a> | multi-agent dispatch decisions as pure functions, replayable offline |
 | **L5** Orchestrator | `@juli-os/core` · upcoming | the full agent OS — composition root of the ladder |
-| **L6** Surfaces | `@juli-os/web` · `@juli-os/ios` · upcoming | web cockpit, iOS remote, CLI |
+| **L6** Surfaces | [`juli-os/ios`](../ios) · live · `@juli-os/web` · upcoming | iOS remote (SwiftUI), web cockpit, CLI |
+
+## Surfaces today
+
+The iOS remote is live and talking to a real engine — screenshots below were taken
+against a seeded instance, not mockups (see the [tour](../ios#the-tour)):
+
+<p align="center">
+  <a href="../ios#the-tour"><img src="https://raw.githubusercontent.com/juli-os/ios/main/Screenshots/gate-approval.png" width="240" alt="Send gate — checks, approve or reject"></a>
+  <a href="../ios#the-tour"><img src="https://raw.githubusercontent.com/juli-os/ios/main/Screenshots/agents-mesh.png" width="240" alt="Agents mesh — live topology"></a>
+  <a href="../ios#the-tour"><img src="https://raw.githubusercontent.com/juli-os/ios/main/Screenshots/casefile-route.png" width="240" alt="Casefile — route chain and original email"></a>
+</p>
 
 ## Principles
 
@@ -35,7 +46,7 @@ Juli OS is an open ladder of **independently usable layers** for building trustw
 
 ## Status
 
-Early days. **L1 (`@juli-os/ledger`) is the first layer out of the gate** — currently in private pre-release while we finish the export pipeline. The ladder grows bottom-up: artifacts, gates, and routing follow the same recipe.
+Early days, moving bottom-up. **Three layers are live on npm** — [ledger](https://www.npmjs.com/package/@juli-os/ledger), [artifacts](https://www.npmjs.com/package/@juli-os/artifacts), [routing](https://www.npmjs.com/package/@juli-os/routing) — each installable on its own, all consumed by the engine we run in production. The [iOS remote](../ios) is the first surface out. Next up the ladder: agents (L0) and gates (L3).
 
 ## Contact
 
