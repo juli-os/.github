@@ -18,13 +18,13 @@ Juli OS is an open ladder of **independently usable layers** for building trustw
 
 | Layer | Package | What you get |
 |---|---|---|
-| **L0** Execution substrate | `@juli-labs/agents` · upcoming | tmux-based agent session runtime with delivery confirmation and self-healing |
-| **L1** Ledger | [`@juli-labs/ledger`](../ledger) · pre-release | the append-only record of agent work — workflows, steps, case files, token usage. Zero npm dependencies (Node built-in SQLite) |
-| **L2** Artifacts | `@juli-labs/artifacts` · upcoming | hash-registered deliverables with provenance — content stays schema-free, metadata is the only structure |
-| **L3** Gates | `@juli-labs/gates` · upcoming | human approval flows with content-hash binding — nothing leaves without a sign-off |
-| **L4** Routing | `@juli-labs/routing` · upcoming | multi-agent dispatch decisions as pure functions |
-| **L5** Orchestrator | `@juli-labs/core` · upcoming | the full agent OS — composition root of the ladder |
-| **L6** Surfaces | `@juli-labs/web` · `@juli-labs/ios` · upcoming | web cockpit, iOS remote, CLI |
+| **L0** Execution substrate | `@juli-os/agents` · upcoming | tmux-based agent session runtime with delivery confirmation and self-healing |
+| **L1** Ledger | [`@juli-os/ledger`](../ledger) · pre-release | the append-only record of agent work — workflows, steps, case files, token usage. Zero npm dependencies (Node built-in SQLite) |
+| **L2** Artifacts | `@juli-os/artifacts` · upcoming | hash-registered deliverables with provenance — content stays schema-free, metadata is the only structure |
+| **L3** Gates | `@juli-os/gates` · upcoming | human approval flows with content-hash binding — nothing leaves without a sign-off |
+| **L4** Routing | `@juli-os/routing` · upcoming | multi-agent dispatch decisions as pure functions |
+| **L5** Orchestrator | `@juli-os/core` · upcoming | the full agent OS — composition root of the ladder |
+| **L6** Surfaces | `@juli-os/web` · `@juli-os/ios` · upcoming | web cockpit, iOS remote, CLI |
 
 ## Principles
 
@@ -35,7 +35,7 @@ Juli OS is an open ladder of **independently usable layers** for building trustw
 
 ## Status
 
-Early days. **L1 (`@juli-labs/ledger`) is the first layer out of the gate** — currently in private pre-release while we finish the export pipeline. The ladder grows bottom-up: artifacts, gates, and routing follow the same recipe.
+Early days. **L1 (`@juli-os/ledger`) is the first layer out of the gate** — currently in private pre-release while we finish the export pipeline. The ladder grows bottom-up: artifacts, gates, and routing follow the same recipe.
 
 ## Contact
 
