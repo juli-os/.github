@@ -18,7 +18,7 @@ Juli OS is an open ladder of **independently usable layers** for building trustw
 
 | Layer | Package | What you get |
 |---|---|---|
-| **L0** Execution substrate | `@juli-os/agents` · upcoming | tmux-based agent session runtime with delivery confirmation and self-healing |
+| **L0** Execution substrate | [`@juli-os/agents`](../agents) <a href="https://www.npmjs.com/package/@juli-os/agents"><img src="https://img.shields.io/npm/v/@juli-os/agents.svg?color=D97C26"></a> | tmux-based agent session runtime with delivery confirmation and self-healing. Zero npm dependencies |
 | **L1** Ledger | [`@juli-os/ledger`](../ledger) <a href="https://www.npmjs.com/package/@juli-os/ledger"><img src="https://img.shields.io/npm/v/@juli-os/ledger.svg?color=D97C26"></a> | the append-only record of agent work — workflows, steps, case files, token usage. Zero npm dependencies (Node built-in SQLite) |
 | **L2** Artifacts | [`@juli-os/artifacts`](../artifacts) <a href="https://www.npmjs.com/package/@juli-os/artifacts"><img src="https://img.shields.io/npm/v/@juli-os/artifacts.svg?color=D97C26"></a> | hash-registered deliverables with provenance — content stays schema-free, metadata is the only structure |
 | **L3** Gates | `@juli-os/gates` · upcoming | human approval flows with content-hash binding — nothing leaves without a sign-off |
@@ -46,7 +46,7 @@ against a seeded instance, not mockups (see the [tour](../ios#the-tour)):
 
 ## Status
 
-Early days, moving bottom-up. **Three layers are live on npm** — [ledger](https://www.npmjs.com/package/@juli-os/ledger), [artifacts](https://www.npmjs.com/package/@juli-os/artifacts), [routing](https://www.npmjs.com/package/@juli-os/routing) — each installable on its own, all consumed by the engine we run in production. The [iOS remote](../ios) is the first surface out. Next up the ladder: agents (L0) and gates (L3).
+Early days, moving bottom-up. **Three layers are live on npm** — [ledger](https://www.npmjs.com/package/@juli-os/ledger), [artifacts](https://www.npmjs.com/package/@juli-os/artifacts), [routing](https://www.npmjs.com/package/@juli-os/routing) — each installable on its own, all consumed by the engine we run in production. The [iOS remote](../ios) is the first surface out. Next up the ladder: gates (L3).
 
 ## Contact
 
