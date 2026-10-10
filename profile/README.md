@@ -23,7 +23,7 @@ Juli OS is an open ladder of **independently usable layers** for building trustw
 | **L2** Artifacts | [`@juli-os/artifacts`](https://github.com/juli-os/artifacts) <a href="https://www.npmjs.com/package/@juli-os/artifacts"><img src="https://img.shields.io/npm/v/@juli-os/artifacts.svg?color=D97C26"></a> | hash-registered deliverables with provenance — content stays schema-free, metadata is the only structure |
 | **L3** Gates | `@juli-os/gates` · upcoming | human approval flows with content-hash binding — nothing leaves without a sign-off |
 | **L4** Routing | [`@juli-os/routing`](https://github.com/juli-os/routing) <a href="https://www.npmjs.com/package/@juli-os/routing"><img src="https://img.shields.io/npm/v/@juli-os/routing.svg?color=D97C26"></a> | multi-agent dispatch decisions as pure functions, replayable offline |
-| **L5** Orchestrator | `@juli-os/core` · upcoming | the full agent OS — composition root of the ladder |
+| **L5** Orchestrator | [`juli-os/juli`](https://github.com/juli-os/juli) · live | the full agent OS — chat a task in, Claude Code runs it in tmux, you approve at the gate; engine + web cockpit + deploy recipes |
 | **L6** Surfaces | [`juli-os/ios`](https://github.com/juli-os/ios) · live · `@juli-os/web` · upcoming | iOS remote (SwiftUI), web cockpit, CLI |
 
 ## Surfaces today
@@ -46,7 +46,7 @@ against a seeded instance, not mockups (see the [tour](https://github.com/juli-o
 
 ## Status
 
-Early days, moving bottom-up. **Three layers are live on npm** — [ledger](https://www.npmjs.com/package/@juli-os/ledger), [artifacts](https://www.npmjs.com/package/@juli-os/artifacts), [routing](https://www.npmjs.com/package/@juli-os/routing) — each installable on its own, all consumed by the engine we run in production. The [iOS remote](https://github.com/juli-os/ios) is the first surface out. Next up the ladder: gates (L3).
+Early days, moving bottom-up. **Three layers are live on npm** — [ledger](https://www.npmjs.com/package/@juli-os/ledger), [artifacts](https://www.npmjs.com/package/@juli-os/artifacts), [routing](https://www.npmjs.com/package/@juli-os/routing) — each installable on its own, all consumed by the engine we run in production. The [iOS remote](https://github.com/juli-os/ios) is the first surface out, and the full engine ([juli](https://github.com/juli-os/juli)) is now public — a 30-minute docker-compose quickstart, human approval gates included. Next up the ladder: gates (L3).
 
 ## Contact
 
