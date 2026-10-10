@@ -37,6 +37,14 @@ against a seeded instance, not mockups (see the [tour](https://github.com/juli-o
   <a href="https://github.com/juli-os/ios#the-tour"><img src="https://raw.githubusercontent.com/juli-os/ios/main/Screenshots/casefile-route.png" width="240" alt="Casefile — route chain and original email"></a>
 </p>
 
+The web cockpit ships with the engine ([`juli-os/juli`](https://github.com/juli-os/juli)) — the routing DAG
+and per-job cost view below are the real views of a seeded instance, not mockups:
+
+<p align="center">
+  <a href="https://github.com/juli-os/juli"><img src="https://raw.githubusercontent.com/juli-os/juli/main/docs/screenshots/routing-dag.png" width="400" alt="Routing DAG — channels, judgment layer, agent sessions, live edges"></a>
+  <a href="https://github.com/juli-os/juli"><img src="https://raw.githubusercontent.com/juli-os/juli/main/docs/screenshots/cost-analysis.png" width="400" alt="Cost analysis — per-job API cost, price buckets, P90 scatter"></a>
+</p>
+
 ## Principles
 
 - **Adopt at your altitude** — every layer is useful alone; the whole is assembled, not required
