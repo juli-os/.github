@@ -24,7 +24,7 @@ Juli OS is an open ladder of **independently usable layers** for building trustw
 | **L3** Gates | built into [`juli-os/juli`](https://github.com/juli-os/juli) · live | human approval flows with content-hash binding — nothing leaves without a sign-off — ships as part of the engine, not a separate package |
 | **L4** Routing | [`@juli-os/routing`](https://github.com/juli-os/routing) <a href="https://www.npmjs.com/package/@juli-os/routing"><img src="https://img.shields.io/npm/v/@juli-os/routing.svg?color=D97C26"></a> | multi-agent dispatch decisions as pure functions, replayable offline |
 | **L5** Orchestrator | [`juli-os/juli`](https://github.com/juli-os/juli) · live | the full agent OS — chat a task in, Claude Code runs it in tmux, you approve at the gate; engine + web cockpit + deploy recipes |
-| **L6** Surfaces | [`juli-os/ios`](https://github.com/juli-os/ios) · live · `@juli-os/web` · upcoming | iOS remote (SwiftUI), web cockpit, CLI |
+| **L6** Surfaces | [`juli-os/ios`](https://github.com/juli-os/ios) · live · web cockpit + CLI built into [`juli-os/juli`](https://github.com/juli-os/juli) | iOS remote (SwiftUI), web cockpit (runs, gates, live terminals, chat intake), CLI |
 
 ## Surfaces today
 
